@@ -5,10 +5,12 @@
 <h1>NYOMD MEG</h1>
 
 <button onclick="typeWriter()">Click me</button>
+<button onlcick="crash()">crash browser</button>
 
 <p id="p"></p>
 
 <script>
+var n = 1;
 var i = 0;
 var txt = 'a kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger kurva anyad nigger ';
 var speed = 100;
@@ -19,6 +21,10 @@ function typeWriter() {
     i++;
     setTimeout(typeWriter, speed);
   }
+}
+
+function crash() {
+  for (var i = 5; i > 3; i = i + 1){ console.log(i); }
 }
 </script>
 
