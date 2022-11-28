@@ -189,6 +189,7 @@
             return bufView;
         }
 //asks for the password
+
         async function deriveKey(salt, password) {
             const encoder = new TextEncoder()
             const baseKey = await crypto.subtle.importKey(
