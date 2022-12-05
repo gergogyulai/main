@@ -33,7 +33,6 @@ input {
     border-radius: 50px;
     width: 100px;
     margin-top: auto;
-    height: px;
     border: none;
   }
   .gohome{
@@ -58,7 +57,6 @@ input {
   }
 
   .inputfield{
-    /*border-radius: 11px;*/
     caret-color: #fff;
     border-color:#376996;
     text-align: center;
