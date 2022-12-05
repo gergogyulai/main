@@ -21,11 +21,8 @@ input {
   .logintitle{
     color: #fff;
   }
-  .usrlabel {
-   color: #fff; 
-  }
 
-  .pswlabel {
+  .label {
     color:#fff;
   }
   ::placeholder{
@@ -42,8 +39,8 @@ input {
   .gohome{
     background: none;
     border: none;
-    width: auto;
-    font-stretch: expanded;
+    width: 10px;
+    height: 10px;
   }
 
   .container {
@@ -72,6 +69,16 @@ input {
     background-color:#376996;
     text-align: center;
     color:#fff
+  }
+
+  .fn{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .ln{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
   }
 
   .submit{
