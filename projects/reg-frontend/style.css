@@ -1,13 +1,14 @@
 body {
-  background-color: #051F20;
+  background-color: #1D3461;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 input {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid #fff;
+    /*border-radius: 4px;*/
+    border-radius: 50px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -18,23 +19,31 @@ input {
   }
   
   .logintitle{
-    color: #ccc;
+    color: #fff;
   }
   .usrlabel {
-   color: #ccc; 
+   color: #fff; 
   }
 
   .pswlabel {
-    color:#ccc;
+    color:#fff;
   }
-
+  ::placeholder{
+    color: rgba(255, 255, 255, 0.466);
+  }
   .submit {
     text-align: center;
-    border-radius: 17px;
+    border-radius: 50px;
     width: 100px;
     margin-top: auto;
     height: px;
     border: none;
+  }
+  .gohome{
+    background: none;
+    border: none;
+    width: auto;
+    font-stretch: expanded;
   }
 
   .container {
@@ -42,7 +51,7 @@ input {
     text-align: center;
     padding: 10px;
     margin: auto;
-    background-color: #0B2B26;
+    background-color: #1F487E;
     padding: 20px;
     width: 350px;
     position: absolute;
@@ -51,27 +60,23 @@ input {
     transform: translate(-50%, -50%);
   }
 
-  .pswinput{
-    border-radius: 11px;
-    caret-color: #ccc;
-    border-color:#163832;
+  .inputfield{
+    /*border-radius: 11px;*/
+    caret-color: #fff;
+    border-color:#376996;
     text-align: center;
-    background-color:#163832;
-    
-  }
-
-  .usrinput{
-    border-radius: 11px;
-    caret-color: #ccc;
-    border-color:#163832;
-    background-color:#163832;
+    background-color:#376996;
+    border-radius: 50px;
+    caret-color: #fff;
+    border-color:#376996;
+    background-color:#376996;
     text-align: center;
-    color:#ccc
+    color:#fff
   }
 
   .submit{
-    background-color: #235347;
-    color: #ccc;
+    background-color: #6290C8;
+    color: #fff;
   }
 
   .devbutton{
