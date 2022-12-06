@@ -1,33 +1,38 @@
-body {
-  background-color: #1D3461;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  body {
+    background-color: #1D3461; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
-input {
+  input {
     width: 100%;
     padding: 12px;
     border: 1px solid #fff;
-    /*border-radius: 4px;*/
     border-radius: 50px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
   }
-  
-  *:focus {
-    outline: none;
+
+  a:link, a:visited, a:active {
+    color: #6290C8;
   }
-  
-  .logintitle{
+
+  a:hover{
+    color: #90c2ff;
+  }
+
+  :focus {
+    outline: 1px #6290C8 solid;
+  }
+
+  .title, .label {
     color: #fff;
   }
 
-  .label {
-    color:#fff;
-  }
-  ::placeholder{
+  ::placeholder {
     color: rgba(255, 255, 255, 0.466);
   }
+
   .submit {
     text-align: center;
     border-radius: 50px;
@@ -35,7 +40,8 @@ input {
     margin-top: auto;
     border: none;
   }
-  .gohome{
+
+  .gohome {
     background: none;
     border: none;
     width: 10px;
@@ -45,7 +51,6 @@ input {
   .container {
     border-radius: 11px;
     text-align: center;
-    padding: 10px;
     margin: auto;
     background-color: #1F487E;
     padding: 20px;
@@ -56,43 +61,28 @@ input {
     transform: translate(-50%, -50%);
   }
 
-  .inputfield{
+  .inputfield {
     caret-color: #fff;
     border-color:#376996;
     text-align: center;
     background-color:#376996;
     border-radius: 50px;
-    caret-color: #fff;
-    border-color:#376996;
     background-color:#376996;
     text-align: center;
-    color:#fff
+    color:#fff;
   }
 
-  .fn{
+  .ln {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
   }
 
-  .ln{
+  .fn {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
   }
 
-  .submit{
-    background-color: #6290C8;
+  .submit {
+    background-color: #4876ad;
     color: #fff;
-  }
-
-  .devbutton{
-    background-color: transparent;
-    border: none;
-    color: transparent;
-    padding: 5px 19px;
-    display: inline-block;
-    border-radius: 11px;
-    position: absolute;
-    left: 50%;
-    top: 56%;
-    transform: translate(-50%, -50%);
   }
