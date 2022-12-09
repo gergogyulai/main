@@ -8,42 +8,36 @@
     <title>Register</title>
 </head>
 <body>
-  <div class="container">
-      <h1 class="title">Register</h1>
-        <form action="/index.html">
-          <label for="email" class="label">Email</label>
-          <input class="inputfield" type="text" placeholder="Enter Email" name="email" id="username" required>
-          
-          <table>
-            <tr>
-              <td>
-                <label for="lname" class="label">First Name</label>
-                <input class="inputfield fn" type="text" placeholder="Enter First name" name="lname" id="lname" required>
-              </td>
-              <td>
-                <label for="lname" class="label">Last Name</label>
-                <input class="inputfield ln" type="text" placeholder="Enter Last name" name="lname" id="lname" required>
-              </td>
-            </tr>
-          </table>
-          
-          <label for="usrname" class="label">Username</label>
-          <input class="inputfield" type="text" name="usrname" placeholder="Enter Username" id="username" autocomplete="off " required>
-          
-          <label for="psw" class="label">Password</label>
-          <input class="inputfield" type="password" placeholder="Enter Password" id="password" required>
-          
-          <label for="cpsw" class="label">Confirm Password</label>
-          <input class="inputfield" type="password" placeholder="Confirm Password" id="password" name="cpsw" required>
-
-          <input class="submit" type="submit" value="Submit" id="submit" onclick="validate()">
-
-          <p class="title">Already have an account? <a href="../login/">Login.</a></p>
-        </form>
-  </div>
-
-  <form action="/index.html">
-    <input class="gohome" type="submit" value="X" />
-</form>
+    <div class="container">
+        <h1 class="title">Register</h1>
+          <form action="/index.html">
+            <label for="email" class="label">Email</label>
+            <input class="inputfield" type="text" placeholder="Enter Email" name="email" id="username" required>
+    
+            <table>
+              <tr>
+                <td>
+                  <label for="lname" class="label">First Name</label>
+                  <input class="inputfield fn" type="text" placeholder="Enter First name" name="lname" id="lname" required>
+                </td>
+                <td>
+                  <label for="lname" class="label">Last Name</label>
+                  <input class="inputfield ln" type="text" placeholder="Enter Last name" name="lname" id="lname" required>
+                </td>
+              </tr>
+            </table>
+    
+            <label for="usrname" class="label">Username</label>
+            <input class="inputfield" type="text" name="usrname" placeholder="Enter Username" id="username" autocomplete="off " required>
+    
+            <label for="psw" class="label">Password</label>
+            <input class="inputfield" type="password" placeholder="Enter Password" id="password" required>
+    
+            <label for="cpsw" class="label">Confirm Password</label>
+            <input class="inputfield" type="password" placeholder="Confirm Password" id="password" name="cpsw" required>
+            <input class="submit" type="submit" value="Submit" id="submit" onclick="validate()">
+            <p class="title">Already have an account? <a href="../login/">Login.</a></p>
+          </form>
+    </div>
 </body>
 </html>

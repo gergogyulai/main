@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
     <style>
         body {
@@ -12,40 +9,32 @@
             font-size: 36px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-        .btn{
-            width: 19%;
+        .btn{width: 19%;
             height: 45px;
             border: none;
             border-radius: 50px;
             background-color: #424242;
             color: #fff;
-        }
-        
+        } 
     </style>
     <script>
         function generatePassword() {
             var password = "";
             var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+";
             for (var i = 0; i < 16; i++) {
-              password += possible.charAt(Math.floor(Math.random() * possible.length));
+                password += possible.charAt(Math.floor(Math.random() * possible.length));
             }
             return password;
-        }
+            }
     </script>
 </head>
 <body>
-    Password auto generates on page load!
-
+    <h1>Password auto generates on page load!</h1>
     <p>Your password is:</p>
     <p><span id="password"></span></p>
-
-
     <button class="btn" onClick="window.location.href=window.location.href">Regenerate Password</button>
 </body>
-
 <script>
-  document.getElementById("password").innerHTML = generatePassword();
+    document.getElementById("password").innerHTML = generatePassword();
 </script>
-
-
 </html>

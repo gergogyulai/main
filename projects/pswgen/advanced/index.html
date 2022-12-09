@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <script src="src/main.js"></script>
+    <title>Advanced Password generator</title>
+</head>
+<body>
+    <form>
+      <label for="passwordLength">Password Length:</label><br>
+      <input type="number" id="passwordLength" name="passwordLength" min="8" max="128" value="16"><br><br>
+      <input type="checkbox" class="checkbox" id="includeLowercase" name="includeLowercase" checked>
+      <label for="includeLowercase">Include lowercase letters</label><br>
+      <input type="checkbox" class="checkbox" id="includeUppercase" name="includeUppercase" checked>
+      <label for="includeUppercase">Include uppercase letters</label><br>
+      <input type="checkbox" class="checkbox" id="includeNumbers" name="includeNumbers" checked>
+      <label for="includeNumbers">Include numbers</label><br>
+      <input type="checkbox" class="checkbox" id="includeSpecial" name="includeSpecial" checked>
+      <label for="includeSpecial">Include special characters</label><br><br>
+      <input class="button" type="button" onclick="generatePassword()" value="Generate Password">
+    </form>
+    
+    <br>
+    <textarea id="password" rows="1" cols="50" readonly></textarea> 
+    <br>
+    <button id="copyPsw" onclick="copyPsw()">Copy Password</button>
+    <p id="copysucccess">&nbsp</p>
+
+    <!-- <script>
+        function generatePassword() {
+          var passwordLength = document.getElementById("passwordLength").value;
+          var includeLowercase = document.getElementById("includeLowercase").checked;
+          var includeUppercase = document.getElementById("includeUppercase").checked;
+          var includeNumbers = document.getElementById("includeNumbers").checked;
+          var includeSpecial = document.getElementById("includeSpecial").checked;
+        
+          var password = "";
+          var characterSet = "";
+        
+          if (includeLowercase) {
+            characterSet += "abcdefghijklmnopqrstuvwxyz";
+          }
+          if (includeUppercase) {
+            characterSet += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+          }
+          if (includeNumbers) {
+            characterSet += "0123456789";
+          }
+          if (includeSpecial) {
+            characterSet += "!@#$%^&*()_+-=[]{}|';:/?.>,<";
+          }
+      
+          for (var i = 0; i < passwordLength; i++) {
+            password += characterSet.charAt(Math.floor(Math.random() * characterSet.length));
+        }
+
+          document.getElementById("password").value = password;
+          document.getElementById("copysucccess").innerHTML = "&nbsp";
+        }
+
+        function copyPsw() {
+          var copyText = document.getElementById("password");
+          copyText.select();
+          copyText.setSelectionRange(0, 99999); 
+          navigator.clipboard.writeText(copyText.value);
+          document.getElementById("copysucccess").innerHTML = "Copied to clipboard!";
+        }
+    </script> -->
+</div>
+</body>
+</html>
