@@ -1,8 +1,14 @@
-body{
+body {
     background-color: #181818 !important; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
     text-align: center;
+  }
+
+
+.darkmode{
+    color: aliceblue;
+    background-color: #000000;
 }
 
 details {
@@ -80,4 +86,7 @@ p{
     width: 25%;
     padding: 5%;
     background-color: #272727;
+}
+.td1{
+    width: 1000px;
 }

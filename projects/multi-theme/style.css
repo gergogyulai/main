@@ -1,0 +1,23 @@
+  /* This is the default style for the page */
+  body {
+    background-color: white;
+    color: black;
+  }
+  /* This is the style for the light theme */
+  .light-theme {
+    background-color: white;
+    color: black;
+  }
+  /* This is the style for the dark theme */
+  .dark-theme {
+    background-color: black;
+    color: white;
+  }
+  /* This is the style for the red accent color */
+  .red-accent {
+    color: red;
+  }
+  /* This is the style for the blue accent color */
+  .blue-accent {
+    color: blue;
+  }
