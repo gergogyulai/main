@@ -6,7 +6,7 @@ function createSnowFlake() {
 	snow_flake.classList.add('fas');
 	snow_flake.classList.add('fa-snowflake');
 	snow_flake.style.left = Math.random() * window.innerWidth -10 + 'px';
-	snow_flake.style.animationDuration = Math.random() * 4 + 3 + 's'; // between 2 - 5 seconds
+	snow_flake.style.animationDuration = Math.random() * 4 + 3 + 's';
 	snow_flake.style.opacity = Math.random();
 	snow_flake.style.fontSize = Math.random() * 10 + 4 + 'px';
 

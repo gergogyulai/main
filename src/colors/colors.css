@@ -1,0 +1,62 @@
+body{
+    color: #051F20;
+    color: #0B2B26;
+    color: #163832;
+    color: #235347;
+    color: #8EB69B;
+    color: #DAF1DE;
+--middle-blue: #89d2dcff;
+--slate-blue: #6564dbff;
+--persian-blue: #232ed1ff;
+--oxford-blue: #101d42ff;
+--rich-black-fogra-29: #0d1317ff;
+}
+/*
+/* CSS HEX 
+--middle-blue: #89d2dcff;
+--slate-blue: #6564dbff;
+--persian-blue: #232ed1ff;
+--oxford-blue: #101d42ff;
+--rich-black-fogra-29: #0d1317ff;
+
+/* CSS HSL 
+--middle-blue: hsla(187, 54%, 70%, 1);
+--slate-blue: hsla(241, 62%, 63%, 1);
+--persian-blue: hsla(236, 71%, 48%, 1);
+--oxford-blue: hsla(224, 61%, 16%, 1);
+--rich-black-fogra-29: hsla(204, 28%, 7%, 1);
+
+/* SCSS HEX 
+$middle-blue: #89d2dcff;
+$slate-blue: #6564dbff;
+$persian-blue: #232ed1ff;
+$oxford-blue: #101d42ff;
+$rich-black-fogra-29: #0d1317ff;
+
+/* SCSS HSL 
+$middle-blue: hsla(187, 54%, 70%, 1);
+$slate-blue: hsla(241, 62%, 63%, 1);
+$persian-blue: hsla(236, 71%, 48%, 1);
+$oxford-blue: hsla(224, 61%, 16%, 1);
+$rich-black-fogra-29: hsla(204, 28%, 7%, 1);
+
+/* SCSS RGB 
+$middle-blue: rgba(137, 210, 220, 1);
+$slate-blue: rgba(101, 100, 219, 1);
+$persian-blue: rgba(35, 46, 209, 1);
+$oxford-blue: rgba(16, 29, 66, 1);
+$rich-black-fogra-29: rgba(13, 19, 23, 1);
+
+ SCSS Gradient 
+$gradient-top: linear-gradient(0deg, #89d2dcff, #6564dbff, #232ed1ff, #101d42ff, #0d1317ff);
+$gradient-right: linear-gradient(90deg, #89d2dcff, #6564dbff, #232ed1ff, #101d42ff, #0d1317ff);
+$gradient-bottom: linear-gradient(180deg, #89d2dcff, #6564dbff, #232ed1ff, #101d42ff, #0d1317ff);
+$gradient-left: linear-gradient(270deg, #89d2dcff, #6564dbff, #232ed1ff, #101d42ff, #0d1317ff);
+$gradient-top-right: linear-gradient(45deg, #89d2dcff, #6564dbff, #232ed1ff, #101d42ff, #0d1317ff);
+$gradient-bottom-right: linear-gradient(135deg, #89d2dcff, #6564dbff, #232ed1ff, #101d42ff, #0d1317ff);
+$gradient-top-left: linear-gradient(225deg, #89d2dcff, #6564dbff, #232ed1ff, #101d42ff, #0d1317ff);
+$gradient-bottom-left: linear-gradient(315deg, #89d2dcff, #6564dbff, #232ed1ff, #101d42ff, #0d1317ff);
+$gradient-radial: radial-gradient(#89d2dcff, #6564dbff, #232ed1ff, #101d42ff, #0d1317ff);
+
+
+*/
