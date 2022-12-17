@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
 
 body {
-	background-color: #181818;
+	/*background-color: #181818;*/
+    background-color: rebeccapurple;
 	color: #fff;
 	text-align: center;
 	margin: 0;
