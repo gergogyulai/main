@@ -52,6 +52,12 @@ p{
     margin: auto;
     padding: 10px;
 }
+/*Mobile*/
+@media (max-width: 767px) {
+    .div1{
+        width: 70vw;
+    }
+}
 
 .edu{
     width: 30%;
