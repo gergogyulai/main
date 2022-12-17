@@ -90,6 +90,10 @@ p{
 .td1{
     width: 1000px;
 }
+#gitlogo{
+    width: 20px;
+    vertical-align:middle;
+}
 .floating-text {
 	background-color: #3b3b3b;
 	border-radius: 10px 10px 0 0;
