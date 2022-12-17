@@ -1,0 +1,20 @@
+* {
+	box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    display: none;
+
+}
+
+.fa-snowflake {
+	color: #fff;
+	position: absolute;
+	top: -20px;
+	animation: fall linear forwards;
+}
+
+@keyframes fall {
+	to {
+		transform: translateY(130vh);
+	}
+}
