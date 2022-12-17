@@ -1,0 +1,11 @@
+body{
+    background-image: url(bg.jpg);
+}
+.personal{
+    border-radius: 15px;
+    text-align: center;
+}
+input{
+    border-radius: 15px;
+    border: 1px;
+}

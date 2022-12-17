@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+</head>
+<body>
+    
+  <div class="container">
+      <h1 class="title">Login</h1>
+        <form action="/index.html">
+          <label for="email" class="label">Email or Username</label>
+          <input class="inputfield" type="text" placeholder="Enter Email or Username" name="email" id="username" required>
+
+          <label for="psw" class="label">Password</label>
+          <input class="inputfield" type="password" placeholder="Enter Password" id="password" required>
+
+          <input class="submit" type="submit" value="Submit" id="submit" onclick="validate()">
+
+          <p class="title">Don't have an account? <a href="../reg/">Register.</a></p>
+        </form>
+  </div>
+  <form action="../index.html">
+    <input class="gohome" type="submit" value="X" />
+</form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+      background-color: #fff;
+      color: #000;
+    }
+    .dark-mode {
+      background-color: #000;
+      color: #fff;
+    }
+  </style>
+  
+  <body class="light-mode">
+    <button onclick="toggleDarkMode()">Toggle dark mode</button>
+  
+    <script>
+      function toggleDarkMode() {
+        var body = document.querySelector("body");
+        var currentClass = body.className;
+        body.className = currentClass == "light-mode" ? "dark-mode" : "light-mode";
+        localStorage.setItem("darkMode", body.className);
+      }
+  
+      var darkMode = localStorage.getItem("darkMode");
+      if (darkMode) {
+        document.querySelector("body").className = darkMode;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+}
+.dark-mode-toggle {background: #181818;
+    color: #fff;
+}
+  
+.dark-mode-theme {
+    background: #181818;
+    color: #fff;
+}
