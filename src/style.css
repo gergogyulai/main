@@ -1,14 +1,19 @@
-body{
-    background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%); 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #ffffff;
-    text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+
+body {
+	background-color: #181818;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
 }
 
 details {
     border: 1px solid #aaa;
     border-radius: 4px;
-    padding: .5em .5em 0;
+    padding: 10px .5em 0;
     width: 50%;
     text-align: center;
     margin: auto;
@@ -36,15 +41,35 @@ p{
 .title{
     line-height: 65%;
     text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .div1{
     text-align: center;
     width: 30%;
-    border: 1px solid #3d3d3d;
-    border-radius: 10px;
+    border: 1px solid #414141;
+    border-radius: 25px;
     margin: auto;
     padding: 10px;
+}
+/*Mobile*/
+@media (max-width: 767px) {
+    .div1{
+        width: 90vw;
+    }
+    .floating-text {
+        background-color: #3b3b3b;
+        border-radius: 10px 10px 0 0;
+        color: #fff;
+        padding: 7px 15px;
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        z-index: 998;
+    }
+    
 }
 
 .edu{
@@ -75,4 +100,68 @@ p{
 }
 .td1{
     width: 1000px;
+}
+.gitlogo{
+    width: 20px;
+    vertical-align:middle;
+}
+.floating-text {
+	background-color: #3b3b3b;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+	padding: 7px 15px;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	z-index: 998;
+}
+
+/*Tooltip*/
+
+ /*Tooltip container*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+  
+  /*Tooltip text*/
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: max-content;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 50px;
+    padding:5px 10px 5px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity .1s;
+}
+  
+  /*Tooltip arrow*/
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-color: #555 transparent transparent transparent;
+}
+  
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.moreinfo{
+    border: 1px #fff solid;
+    border-radius: 5px;
 }
