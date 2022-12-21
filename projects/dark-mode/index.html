@@ -30,7 +30,6 @@
             cursor: pointer;
         }
     </style>
-    <script src="main.js"></script>
 </head>
 <body>
     <form action="../index.html">
@@ -45,4 +44,10 @@
     <input onclick="myFunction()" type="checkbox" name="Dark mode" id="checkbox1" class="checkbox1">
     <label for="checkbox1">Dark mode</label>
 </body>
+<script>
+    function myFunction(){
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}
+</script>
 </html>
