@@ -1,2 +1,2 @@
-# This is my main GitHub pages site (this includines school projects)
+# This is my main GitHub pages site (this includes school projects)
 fazs.xyz
